@@ -1,0 +1,37 @@
+/* color #38E54D */
+body {
+    padding: 3% 10%;
+}
+
+.logo-img {
+    width: 20%;
+}
+
+.header-box {
+    margin: auto;
+    max-width: 30rem;
+}
+
+input:focus {
+    border-color: #38E54D !important;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px #38E54D !important;
+}
+
+.dropdown-menu {
+    height: 40vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.dropdown-item {
+    cursor: pointer;
+}
+
+.table-row:hover{
+    cursor: pointer;
+}
+
+.remove-btn {
+    padding: .1rem 0.5rem;
+    font-size: 10px;
+}
